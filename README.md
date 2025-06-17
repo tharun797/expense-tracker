@@ -1,16 +1,28 @@
-# expense_tracker
+# Expense Tracker Task – Ardens Business Solutions
 
-A new Flutter project.
+This is a Flutter-based expense tracker application built as part of a technical task. The app supports Firebase authentication, expense CRUD operations, daily filtering, and uses GetX for state management with `id`-based updates.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Splash screen with animation
+- Firebase email/password authentication
+- Dashboard showing today's total expenses and expense list
+- Add/Edit/Delete expenses (restricted to today's date only)
+- Date picker to view previous days' expenses
+- Last selected date saved using SharedPreferences
+- Secure storage for sensitive info via `flutter_secure_storage`
+- GetX state management using `GetBuilder` and manual `id` updates
+- Clean architecture with modular folder structure
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧱 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**
+- **Firebase Authentication**
+- **Cloud Firestore**
+- **GetX** (state management & routing)
+- **SharedPreferences** (local caching)
+- **flutter_secure_storage** (secure token storage)
+
+
